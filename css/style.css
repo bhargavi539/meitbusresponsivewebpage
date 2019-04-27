@@ -1,0 +1,190 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+	font-family: 'Open Sans', sans-serif;
+}
+.container{
+	width: 85%;
+	margin: auto;
+	overflow: hidden;
+}
+header{
+	background-color: #f1662f;
+	color: #ffffff;
+	padding: 10px;
+}
+
+header span a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 15px;
+}
+header span{
+	float: right;
+	padding-top: 10px;
+}
+header .logo{
+	float: left;
+}
+nav{
+	background-color: #f3f3f3;
+	padding: 15px 0;
+}
+nav .container a{
+	text-decoration: none;
+	padding-right: 15px;
+	color: #595959;
+}
+
+nav a:visited, nav #start{
+	color: #f28669;
+}
+.content1{
+	position: relative;
+}
+.content1 img{
+	width: 100%;
+	max-height: 400px;
+
+}
+.content1 form{
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	background-color: white;
+	padding: 5px;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+
+.content1 form input{
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 15px;
+}
+#button1{
+	background-color: #038bc1;
+	color:white;
+	padding:10px;
+	border-radius: 6px;
+}
+.content2{
+	box-sizing: border-box;
+	margin-top: 50px;
+}
+.content2 .right-content{
+	width: 60%;
+	padding-right: 5%;
+	display: inline-block;
+}
+.content2 .right-content video{
+	width: 100%;
+	height: auto;
+
+}
+
+.content2 .left-content{
+	width: 25%;
+	padding-right: 5%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.left-content .box{
+	border:1px solid #f2692f;
+	text-align: center;
+	padding: 1%;
+	margin-bottom: 15px;
+	color: #f2775c;
+}
+.left-content .box:first-child{
+	background-color: #f2692f;
+	color: white;
+	text-align: justify;
+}
+.left-content .box ul li{
+	list-style-type: none;
+}
+.left-content .box ul li:before{
+	content: "\f00c";
+	font-family: FontAwesome;
+}
+.bottom{
+	background-color: #ececec;
+}
+.bottom .block{
+	box-sizing: border-box;
+	display: inline-block;
+	width: 30%;
+	padding: 1%;
+	margin: 1%;
+	vertical-align: top;
+}
+footer{
+	background-color: black;
+	color: #adadad;
+}
+footer a{
+	text-decoration: none;
+	display: inline-block;
+	float: right;
+	padding-right: 15px;
+	color: #adadad;
+}
+
+footer p{
+	display: inline-block;
+}
+
+@media screen and (max-width: 768px){
+	header span,header .logo{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	nav a{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.content1 form{
+		width: 50%;
+	}
+	.content1 form input{
+		width: 90%;
+		display: block;
+	}
+	.content2 .right-content{
+		display: block;
+		width: 98%;
+	}
+	.content2 .left-content{
+		display: block;
+		width: 98%;
+	}
+	.bottom .block{
+		display: block;
+		width: 98%;
+	}
+
+	footer a,footer p{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.content1 form{
+		width: 50%;
+		top: 10%;
+        margin: auto;
+	}
+	.content1 form input{
+		width: 90%;
+		display: block;
+		padding: 5px;
+	}
+} 
+
